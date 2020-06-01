@@ -1,0 +1,2132 @@
+<!DOCTYPE html>
+<!-- saved from url=(0050)https://www.profun-ng.envytheme.com/digital-agency -->
+<html lang="en">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <title>Blazing Marketing</title>
+      <!--<base href="/">-->
+      <base href=".">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="icon" type="image/x-icon" href="https://public.touch2success.com/static/f81e1823ca1cca8ea997a0f3b4f07623/img/1590172601php1sDPpX.png?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600">
+      <link href="./Profun - Angular IT Startups &amp; Digital Services Template_files/css" rel="stylesheet">
+      <link rel="stylesheet" href="./Profun - Angular IT Startups &amp; Digital Services Template_files/styles.8056b650b4bf5839146f.css">
+	  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+	  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+      
+      <style>[_nghost-hef-c5]{display:inline-block;width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:2px;stroke-linecap:round;stroke-linejoin:round}</style>
+      <style>
+         @import url("//fonts.googleapis.com/css?family=Arimo");
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-car {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit,
+         .odometer.odometer-theme-car .odometer-digit {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+         .odometer.odometer-theme-car .odometer-digit .odometer-digit-spacer {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-car .odometer-digit .odometer-digit-inner {
+         text-align: left;
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         overflow: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+         .odometer.odometer-theme-car .odometer-digit .odometer-ribbon {
+         display: block;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+         .odometer.odometer-theme-car .odometer-digit .odometer-ribbon-inner {
+         display: block;
+         -webkit-backface-visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value,
+         .odometer.odometer-theme-car .odometer-digit .odometer-value {
+         display: block;
+         -webkit-transform: translateZ(0);
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,
+         .odometer.odometer-theme-car .odometer-digit .odometer-value.odometer-last-value {
+         position: absolute;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+         .odometer.odometer-theme-car.odometer-animating-up .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-car.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+         .odometer.odometer-theme-car.odometer-animating-down .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-car.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+         -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+         transform: translateY(0);
+         }
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-car {
+         -moz-border-radius: 0.34em;
+         -webkit-border-radius: 0.34em;
+         border-radius: 0.34em;
+         font-family: "Arimo", monospace;
+         padding: 0.15em;
+         background: #000;
+         color: #eee0d3;
+         }
+         .odometer.odometer-auto-theme .odometer-digit,
+         .odometer.odometer-theme-car .odometer-digit {
+         -moz-box-shadow: inset 0 0 0.3em rgba(0, 0, 0, 0.8);
+         -webkit-box-shadow: inset 0 0 0.3em rgba(0, 0, 0, 0.8);
+         box-shadow: inset 0 0 0.3em rgba(0, 0, 0, 0.8);
+         background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjxzdG9wIG9mZnNldD0iNDAlIiBzdG9wLWNvbG9yPSIjMzMzMzMzIi8+PHN0b3Agb2Zmc2V0PSI2MCUiIHN0b3AtY29sb3I9IiMxMDEwMTAiLz48c3RvcCBvZmZzZXQ9IjgwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+         background-size: 100%;
+         background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #333333), color-stop(40%, #333333), color-stop(60%, #101010), color-stop(80%, #333333), color-stop(100%, #333333));
+         background-image: -moz-linear-gradient(top, #333333 0%, #333333 40%, #101010 60%, #333333 80%, #333333 100%);
+         background-image: -webkit-linear-gradient(top, #333333 0%, #333333 40%, #101010 60%, #333333 80%, #333333 100%);
+         background-image: linear-gradient(to bottom, #333333 0%, #333333 40%, #101010 60%, #333333 80%, #333333 100%);
+         padding: 0 0.15em;
+         }
+         .odometer.odometer-auto-theme .odometer-digit:first-child,
+         .odometer.odometer-theme-car .odometer-digit:first-child {
+         -moz-border-radius: 0.2em 0 0 0.2em;
+         -webkit-border-radius: 0.2em;
+         border-radius: 0.2em 0 0 0.2em;
+         }
+         .odometer.odometer-auto-theme .odometer-digit:last-child,
+         .odometer.odometer-theme-car .odometer-digit:last-child {
+         -moz-border-radius: 0 0.2em 0.2em 0;
+         -webkit-border-radius: 0;
+         border-radius: 0 0.2em 0.2em 0;
+         background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZTBkMyIvPjxzdG9wIG9mZnNldD0iNDAlIiBzdG9wLWNvbG9yPSIjZWVlMGQzIi8+PHN0b3Agb2Zmc2V0PSI2MCUiIHN0b3AtY29sb3I9IiNiYmFhOWEiLz48c3RvcCBvZmZzZXQ9IjgwJSIgc3RvcC1jb2xvcj0iI2VlZTBkMyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VlZTBkMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+         background-size: 100%;
+         background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eee0d3), color-stop(40%, #eee0d3), color-stop(60%, #bbaa9a), color-stop(80%, #eee0d3), color-stop(100%, #eee0d3));
+         background-image: -moz-linear-gradient(top, #eee0d3 0%, #eee0d3 40%, #bbaa9a 60%, #eee0d3 80%, #eee0d3 100%);
+         background-image: -webkit-linear-gradient(top, #eee0d3 0%, #eee0d3 40%, #bbaa9a 60%, #eee0d3 80%, #eee0d3 100%);
+         background-image: linear-gradient(to bottom, #eee0d3 0%, #eee0d3 40%, #bbaa9a 60%, #eee0d3 80%, #eee0d3 100%);
+         background-color: #eee0d3;
+         color: #000;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-car .odometer-digit .odometer-digit-inner {
+         left: 0.15em;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+         .odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-car.odometer-animating-up .odometer-ribbon-inner,
+         .odometer.odometer-theme-car.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+         -webkit-transition-timing-function: linear;
+         -moz-transition-timing-function: linear;
+         -ms-transition-timing-function: linear;
+         -o-transition-timing-function: linear;
+         transition-timing-function: linear;
+         }
+      </style>
+      <style>
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-default {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit,
+         .odometer.odometer-theme-default .odometer-digit {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+         .odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-default .odometer-digit .odometer-digit-inner {
+         text-align: left;
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         overflow: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+         .odometer.odometer-theme-default .odometer-digit .odometer-ribbon {
+         display: block;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+         .odometer.odometer-theme-default .odometer-digit .odometer-ribbon-inner {
+         display: block;
+         -webkit-backface-visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value,
+         .odometer.odometer-theme-default .odometer-digit .odometer-value {
+         display: block;
+         -webkit-transform: translateZ(0);
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,
+         .odometer.odometer-theme-default .odometer-digit .odometer-value.odometer-last-value {
+         position: absolute;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+         .odometer.odometer-theme-default.odometer-animating-up .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s !important;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-default.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+         .odometer.odometer-theme-default.odometer-animating-down .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-default.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+         -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+         transform: translateY(0);
+         }
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-default {
+         font-family: "Helvetica Neue", sans-serif;
+         line-height: 1.1em;
+         }
+         .odometer.odometer-auto-theme .odometer-value,
+         .odometer.odometer-theme-default .odometer-value {
+         text-align: center;
+         }
+      </style>
+      <style>
+         @import url("//fonts.googleapis.com/css?family=Wallpoet");
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-digital {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit,
+         .odometer.odometer-theme-digital .odometer-digit {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+         .odometer.odometer-theme-digital .odometer-digit .odometer-digit-spacer {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-digital .odometer-digit .odometer-digit-inner {
+         text-align: left;
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         overflow: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+         .odometer.odometer-theme-digital .odometer-digit .odometer-ribbon {
+         display: block;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+         .odometer.odometer-theme-digital .odometer-digit .odometer-ribbon-inner {
+         display: block;
+         -webkit-backface-visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value,
+         .odometer.odometer-theme-digital .odometer-digit .odometer-value {
+         display: block;
+         -webkit-transform: translateZ(0);
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,
+         .odometer.odometer-theme-digital .odometer-digit .odometer-value.odometer-last-value {
+         position: absolute;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+         .odometer.odometer-theme-digital.odometer-animating-up .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-digital.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+         .odometer.odometer-theme-digital.odometer-animating-down .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-digital.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+         -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+         transform: translateY(0);
+         }
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-digital {
+         background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzhiZjVhNSIgc3RvcC1vcGFjaXR5PSIwLjQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+         background-size: 100%;
+         background-image: -moz-radial-gradient(rgba(139, 245, 165, 0.4), #000000);
+         background-image: -webkit-radial-gradient(rgba(139, 245, 165, 0.4), #000000);
+         background-image: radial-gradient(rgba(139, 245, 165, 0.4), #000000);
+         background-color: #000;
+         font-family: "Wallpoet", monospace;
+         padding: 0 0.2em;
+         line-height: 1.1em;
+         color: #8bf5a5;
+         }
+         .odometer.odometer-auto-theme .odometer-digit + .odometer-digit,
+         .odometer.odometer-theme-digital .odometer-digit + .odometer-digit {
+         margin-left: 0.1em;
+         }
+      </style>
+      <style>
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-minimal {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit,
+         .odometer.odometer-theme-minimal .odometer-digit {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+         .odometer.odometer-theme-minimal .odometer-digit .odometer-digit-spacer {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-minimal .odometer-digit .odometer-digit-inner {
+         text-align: left;
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         overflow: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+         .odometer.odometer-theme-minimal .odometer-digit .odometer-ribbon {
+         display: block;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+         .odometer.odometer-theme-minimal .odometer-digit .odometer-ribbon-inner {
+         display: block;
+         -webkit-backface-visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value,
+         .odometer.odometer-theme-minimal .odometer-digit .odometer-value {
+         display: block;
+         -webkit-transform: translateZ(0);
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,
+         .odometer.odometer-theme-minimal .odometer-digit .odometer-value.odometer-last-value {
+         position: absolute;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+         .odometer.odometer-theme-minimal.odometer-animating-up .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-minimal.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+         .odometer.odometer-theme-minimal.odometer-animating-down .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-minimal.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+         -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+         transform: translateY(0);
+         }
+      </style>
+      <style>
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-plaza {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit,
+         .odometer.odometer-theme-plaza .odometer-digit {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+         .odometer.odometer-theme-plaza .odometer-digit .odometer-digit-spacer {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-plaza .odometer-digit .odometer-digit-inner {
+         text-align: left;
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         overflow: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+         .odometer.odometer-theme-plaza .odometer-digit .odometer-ribbon {
+         display: block;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+         .odometer.odometer-theme-plaza .odometer-digit .odometer-ribbon-inner {
+         display: block;
+         -webkit-backface-visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value,
+         .odometer.odometer-theme-plaza .odometer-digit .odometer-value {
+         display: block;
+         -webkit-transform: translateZ(0);
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,
+         .odometer.odometer-theme-plaza .odometer-digit .odometer-value.odometer-last-value {
+         position: absolute;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+         .odometer.odometer-theme-plaza.odometer-animating-up .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-plaza.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+         .odometer.odometer-theme-plaza.odometer-animating-down .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-plaza.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+         -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+         transform: translateY(0);
+         }
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-plaza {
+         -moz-border-radius: 0.15em;
+         -webkit-border-radius: 0.15em;
+         border-radius: 0.15em;
+         background-color: #f0f8ff;
+         font-family: "Helvetica Neue", sans-serif;
+         font-weight: 100;
+         padding: 0 0.12em;
+         line-height: 1.2em;
+         font-size: 1.2em;
+         background-size: 16px 16px;
+         }
+         .odometer.odometer-auto-theme .odometer-digit,
+         .odometer.odometer-theme-plaza .odometer-digit {
+         -moz-border-radius: 0.1em;
+         -webkit-border-radius: 0.1em;
+         border-radius: 0.1em;
+         padding: 0 0.03em;
+         color: #648baf;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-plaza .odometer-digit .odometer-digit-inner {
+         left: 0.03em;
+         }
+      </style>
+      <style>
+         @import url("//fonts.googleapis.com/css?family=Rye");
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-slot-machine {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit,
+         .odometer.odometer-theme-slot-machine .odometer-digit {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+         .odometer.odometer-theme-slot-machine .odometer-digit .odometer-digit-spacer {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-slot-machine .odometer-digit .odometer-digit-inner {
+         text-align: left;
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         overflow: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+         .odometer.odometer-theme-slot-machine .odometer-digit .odometer-ribbon {
+         display: block;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+         .odometer.odometer-theme-slot-machine .odometer-digit .odometer-ribbon-inner {
+         display: block;
+         -webkit-backface-visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value,
+         .odometer.odometer-theme-slot-machine .odometer-digit .odometer-value {
+         display: block;
+         -webkit-transform: translateZ(0);
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,
+         .odometer.odometer-theme-slot-machine .odometer-digit .odometer-value.odometer-last-value {
+         position: absolute;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+         .odometer.odometer-theme-slot-machine.odometer-animating-up .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-slot-machine.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+         .odometer.odometer-theme-slot-machine.odometer-animating-down .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-slot-machine.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+         -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+         transform: translateY(0);
+         }
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-slot-machine {
+         -moz-border-radius: 0.34em;
+         -webkit-border-radius: 0.34em;
+         border-radius: 0.34em;
+         background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmYwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmYTUwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+         background-size: 100%;
+         background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffff00), color-stop(100%, #ffa500));
+         background-image: -moz-linear-gradient(#ffff00, #ffa500);
+         background-image: -webkit-linear-gradient(#ffff00, #ffa500);
+         background-image: linear-gradient(#ffff00, #ffa500);
+         background-color: #fc0;
+         font-family: "Rye", monospace;
+         padding: 0.15em;
+         color: #f80000;
+         line-height: 1.35em;
+         border: 0.03em solid #000;
+         -webkit-text-stroke: 0.05em #000;
+         }
+         .odometer.odometer-auto-theme .odometer-digit,
+         .odometer.odometer-theme-slot-machine .odometer-digit {
+         -moz-box-shadow: inset 0 0 0.1em rgba(0, 0, 0, 0.5), 0 0 0 0.03em #fff, 0 0 0 0.05em rgba(0, 0, 0, 0.2);
+         -webkit-box-shadow: inset 0 0 0.1em rgba(0, 0, 0, 0.5), 0 0 0 0.03em #fff, 0 0 0 0.05em rgba(0, 0, 0, 0.2);
+         box-shadow: inset 0 0 0.1em rgba(0, 0, 0, 0.5), 0 0 0 0.03em #fff, 0 0 0 0.05em rgba(0, 0, 0, 0.2);
+         -moz-border-radius: 0.2em;
+         -webkit-border-radius: 0.2em;
+         border-radius: 0.2em;
+         background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjxzdG9wIG9mZnNldD0iMjAlIiBzdG9wLWNvbG9yPSIjZmZmZmZmIi8+PHN0b3Agb2Zmc2V0PSI4MCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjY2NjY2MiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+         background-size: 100%;
+         background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #cccccc), color-stop(20%, #ffffff), color-stop(80%, #ffffff), color-stop(100%, #cccccc));
+         background-image: -moz-linear-gradient(top, #cccccc 0%, #ffffff 20%, #ffffff 80%, #cccccc 100%);
+         background-image: -webkit-linear-gradient(top, #cccccc 0%, #ffffff 20%, #ffffff 80%, #cccccc 100%);
+         background-image: linear-gradient(to bottom, #cccccc 0%, #ffffff 20%, #ffffff 80%, #cccccc 100%);
+         border: 0.03em solid #444;
+         padding: 0.1em 0.15em 0;
+         }
+         .odometer.odometer-auto-theme .odometer-digit:first-child,
+         .odometer.odometer-theme-slot-machine .odometer-digit:first-child {
+         -moz-box-shadow: inset 0.05em 0 0.1em rgba(0, 0, 0, 0.5), 0 0 0 0.03em #fff, 0 0 0 0.05em rgba(0, 0, 0, 0.2);
+         -webkit-box-shadow: inset 0.05em 0 0.1em rgba(0, 0, 0, 0.5), 0 0 0 0.03em #fff, 0 0 0 0.05em rgba(0, 0, 0, 0.2);
+         box-shadow: inset 0.05em 0 0.1em rgba(0, 0, 0, 0.5), 0 0 0 0.03em #fff, 0 0 0 0.05em rgba(0, 0, 0, 0.2);
+         }
+         .odometer.odometer-auto-theme .odometer-digit:last-child,
+         .odometer.odometer-theme-slot-machine .odometer-digit:last-child {
+         -moz-box-shadow: inset -0.05em 0 0.1em rgba(0, 0, 0, 0.5), 0 0 0 0.03em #fff, 0 0 0 0.05em rgba(0, 0, 0, 0.2);
+         -webkit-box-shadow: inset -0.05em 0 0.1em rgba(0, 0, 0, 0.5), 0 0 0 0.03em #fff, 0 0 0 0.05em rgba(0, 0, 0, 0.2);
+         box-shadow: inset -0.05em 0 0.1em rgba(0, 0, 0, 0.5), 0 0 0 0.03em #fff, 0 0 0 0.05em rgba(0, 0, 0, 0.2);
+         }
+         .odometer.odometer-auto-theme .odometer-digit + .odometer-digit,
+         .odometer.odometer-theme-slot-machine .odometer-digit + .odometer-digit {
+         margin-left: 0.15em;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-slot-machine .odometer-digit .odometer-digit-inner {
+         padding-top: 0.08em;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,
+         .odometer.odometer-theme-slot-machine .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-slot-machine .odometer-digit .odometer-value.odometer-last-value {
+         left: 0;
+         right: 0;
+         text-align: center;
+         }
+      </style>
+      <style>
+         @import url("//fonts.googleapis.com/css?family=Economica");
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-train-station {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit,
+         .odometer.odometer-theme-train-station .odometer-digit {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         position: relative;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer,
+         .odometer.odometer-theme-train-station .odometer-digit .odometer-digit-spacer {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-train-station .odometer-digit .odometer-digit-inner {
+         text-align: left;
+         display: block;
+         position: absolute;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         overflow: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon,
+         .odometer.odometer-theme-train-station .odometer-digit .odometer-ribbon {
+         display: block;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-ribbon-inner,
+         .odometer.odometer-theme-train-station .odometer-digit .odometer-ribbon-inner {
+         display: block;
+         -webkit-backface-visibility: hidden;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value,
+         .odometer.odometer-theme-train-station .odometer-digit .odometer-value {
+         display: block;
+         -webkit-transform: translateZ(0);
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-value.odometer-last-value,
+         .odometer.odometer-theme-train-station .odometer-digit .odometer-value.odometer-last-value {
+         position: absolute;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner,
+         .odometer.odometer-theme-train-station.odometer-animating-up .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         }
+         .odometer.odometer-auto-theme.odometer-animating-up.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-train-station.odometer-animating-up.odometer-animating .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down .odometer-ribbon-inner,
+         .odometer.odometer-theme-train-station.odometer-animating-down .odometer-ribbon-inner {
+         -webkit-transform: translateY(-100%);
+         -moz-transform: translateY(-100%);
+         -ms-transform: translateY(-100%);
+         -o-transform: translateY(-100%);
+         transform: translateY(-100%);
+         }
+         .odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner,
+         .odometer.odometer-theme-train-station.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+         -webkit-transition: -webkit-transform 2s;
+         -moz-transition: -moz-transform 2s;
+         -ms-transition: -ms-transform 2s;
+         -o-transition: -o-transform 2s;
+         transition: transform 2s;
+         -webkit-transform: translateY(0);
+         -moz-transform: translateY(0);
+         -ms-transform: translateY(0);
+         -o-transform: translateY(0);
+         transform: translateY(0);
+         }
+         .odometer.odometer-auto-theme,
+         .odometer.odometer-theme-train-station {
+         font-family: "Economica", sans-serif;
+         }
+         .odometer.odometer-auto-theme .odometer-digit,
+         .odometer.odometer-theme-train-station .odometer-digit {
+         display: inline-block;
+         vertical-align: middle;
+         *vertical-align: auto;
+         *zoom: 1;
+         *display: inline;
+         -moz-border-radius: 0.1em;
+         -webkit-border-radius: 0.1em;
+         border-radius: 0.1em;
+         background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzExMTExMSIvPjxzdG9wIG9mZnNldD0iMzUlIiBzdG9wLWNvbG9yPSIjMTExMTExIi8+PHN0b3Agb2Zmc2V0PSI1NSUiIHN0b3AtY29sb3I9IiMzMzMzMzMiLz48c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iIzExMTExMSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzExMTExMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+         background-size: 100%;
+         background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #111111), color-stop(35%, #111111), color-stop(55%, #333333), color-stop(55%, #111111), color-stop(100%, #111111));
+         background-image: -moz-linear-gradient(top, #111111 0%, #111111 35%, #333333 55%, #111111 55%, #111111 100%);
+         background-image: -webkit-linear-gradient(top, #111111 0%, #111111 35%, #333333 55%, #111111 55%, #111111 100%);
+         background-image: linear-gradient(to bottom, #111111 0%, #111111 35%, #333333 55%, #111111 55%, #111111 100%);
+         background-color: #222;
+         padding: 0 0.15em;
+         color: #fff;
+         }
+         .odometer.odometer-auto-theme .odometer-digit + .odometer-digit,
+         .odometer.odometer-theme-train-station .odometer-digit + .odometer-digit {
+         margin-left: 0.1em;
+         }
+         .odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+         .odometer.odometer-theme-train-station .odometer-digit .odometer-digit-inner {
+         left: 0.15em;
+         }
+      </style>
+      <style>
+         .odometer,
+         .odometer-inside,
+         .odometer-digit,
+         .odometer-digit-spacer,
+         .odometer-digit-inner,
+         .odometer-ribbon,
+         .odometer-ribbon-inner,
+         .odometer-value,
+         .odometer-formatting-mark {
+         color: inherit;
+         font-size: inherit;
+         font-family: inherit;
+         }
+		 .BrandsImages {
+			display: flex;
+			width: 100%;
+			padding: 0px;
+		 }
+		 .BrandsImg {
+			box-shadow: 0 0 5px 2px #c7c7c7;
+			margin: 0px 3px;
+			padding: 0px;
+		}
+		.addressDetails h4 {
+			line-height: 2.2em;
+			text-align: center;
+			font-size: 20px;
+		}
+		.section-title.addressdetailTitle {
+			padding-top: 40px;
+		}
+		.blog-area .section-title .italicPara{
+			color: #6084a4;
+			line-height: 1.8;
+			font-family: Poppins, sans-serif;
+			padding: 0;
+			margin: 0;
+			font-size: 20px;
+			font-style: italic;
+		}
+			[_nghost-yri-c5] {
+			display: inline-block;
+			width: 24px;
+			height: 24px;
+			fill: none;
+			stroke: currentColor;
+			stroke-width: 2px;
+			stroke-linecap: round;
+			stroke-linejoin: round;
+		}
+
+      </style>
+   </head>
+   <body cz-shortcut-listen="true">
+      <app-root _nghost-hef-c0="" ng-version="8.2.9">
+         <div _ngcontent-hef-c0="" class="preloader" style="display: none;">
+            <div _ngcontent-hef-c0="" class="spinner"></div>
+         </div>
+         <!----><!----><!---->
+         <app-header-style-three _ngcontent-hef-c0="" class="ng-tns-c3-1 ng-star-inserted">
+            <header class="navbar-style-three" id="header">
+               <div class="startp-nav " id="navbar">
+                  <nav class="navbar navbar-expand-md navbar-light">
+                     <div class="container-fluid">
+                        <a class="navbar-brand" routerlink="/startup" href="#"><img class="ng-tns-c3-1" alt="logo" src="https://public.touch2success.com/static/f81e1823ca1cca8ea997a0f3b4f07623/img/1589978912phpNHZ5Zf.png"></a><button class="navbar-toggler" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" data-target="#navbarSupportedContent" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                           <ul class="navbar-nav nav">
+                             <li class="nav-item"><a class="nav-link" routerlink="/about" routerlinkactive="active" href="https://vmjsathish27.github.io/BlazingHome/">Home</a></li>
+                              
+                              <li class="nav-item" routerlinkactive="active">
+                                 <a class="nav-link" href="javascript:void(0)">
+                                    Services 
+                                    <i-feather class="ng-tns-c3-1" name="chevron-down" _nghost-hef-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-chevron-down">
+                                          <polyline points="6 9 12 15 18 9"></polyline>
+                                       </svg>
+                                    </i-feather>
+                                 </a>
+                                 <ul class="dropdown_menu">
+                                    <li class="nav-item"><a class="nav-link" routerlink="/project" routerlinkactive="active" href="https://vmjsathish27.github.io/BlazingService/">Marketing</a></li>
+                                    <li class="nav-item"><a class="nav-link" routerlink="/project-details" routerlinkactive="active" href="#">Sales</a></li>
+									<li class="nav-item"><a class="nav-link" routerlink="/project" routerlinkactive="active" href="#">Consultancy</a></li>
+									<li class="nav-item"><a class="nav-link" routerlink="/project" routerlinkactive="active" href="#">Business Strategy</a></li>
+                                 </ul>
+                              </li>
+                              <li class="nav-item" routerlinkactive="active">
+                                 <a class="nav-link" href="javascript:void(0)">
+                                    Solutions 
+                                    <i-feather class="ng-tns-c3-1" name="chevron-down" _nghost-hef-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-chevron-down">
+                                          <polyline points="6 9 12 15 18 9"></polyline>
+                                       </svg>
+                                    </i-feather>
+                                 </a>
+                                 <ul class="dropdown_menu">
+                                    <!--<li class="nav-item" routerlinkactive="active">
+                                       <a class="nav-link" href="javascript:void(0)">Solutions</a>
+                                       <ul class="dropdown_menu">-->
+                                          <li class="nav-item"><a class="nav-link" routerlink="features" routerlinkactive="active" href="https://vmjsathish27.github.io/BlazingSolution/">Finance Solution</a></li>
+                                          <li class="nav-item"><a class="nav-link" routerlink="/features-details" routerlinkactive="active" href="#">Takeaway Solution</a></li>
+										  <li class="nav-item"><a class="nav-link" routerlink="/features-details" routerlinkactive="active" href="#">Delivery Solution</a></li>
+                                       </ul>
+                                    <!--</li>
+                                    <li class="nav-item" routerlinkactive="active">
+                                       <a class="nav-link" href="javascript:void(0)">Services</a>
+                                       <ul class="dropdown_menu">
+                                          <li class="nav-item"><a class="nav-link" routerlink="/services" routerlinkactive="active" href="https://www.profun-ng.envytheme.com/services">Services</a></li>
+                                          <li class="nav-item"><a class="nav-link" routerlink="/services-details" routerlinkactive="active" href="https://www.profun-ng.envytheme.com/services-details">Services Details</a></li>
+                                       </ul>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" routerlink="/team" routerlinkactive="active" href="https://www.profun-ng.envytheme.com/team">Team</a></li>
+                                    <li class="nav-item"><a class="nav-link" routerlink="/pricing" routerlinkactive="active" href="https://www.profun-ng.envytheme.com/pricing">Pricing</a></li>
+                                    <li class="nav-item"><a class="nav-link" routerlink="/faq" routerlinkactive="active" href="https://www.profun-ng.envytheme.com/faq">FAQ</a></li>
+                                    <li class="nav-item"><a class="nav-link" routerlink="/coming-soon" routerlinkactive="active" href="https://www.profun-ng.envytheme.com/coming-soon">Coming Soon</a></li>
+                                    <li class="nav-item"><a class="nav-link" routerlink="/404-error" routerlinkactive="active" href="https://www.profun-ng.envytheme.com/404-error">404 Error</a></li>
+                                 </ul>-->
+                              </li>
+                              <li class="nav-item" routerlinkactive="active">
+                                 <a class="nav-link" href="javascript:void(0)">
+                                    Our Brands 
+                                    <!--<i-feather class="ng-tns-c3-1" name="chevron-down" _nghost-hef-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-chevron-down">
+                                          <polyline points="6 9 12 15 18 9"></polyline>
+                                       </svg>
+                                    </i-feather>-->
+                                 </a>
+                                 <!--<ul class="dropdown_menu">
+                                    <li class="nav-item"><a class="nav-link" routerlink="/blog" routerlinkactive="active" href="https://www.profun-ng.envytheme.com/blog">Blog</a></li>
+                                    <li class="nav-item"><a class="nav-link" routerlink="/blog-details" routerlinkactive="active" href="https://www.profun-ng.envytheme.com/blog-details">Blog Details</a></li>
+                                 </ul>-->
+                              </li>
+							  <li class="nav-item"><a class="nav-link" routerlink="/contact" routerlinkactive="active" href="#">Our Work</a></li>
+							  <li class="nav-item"><a class="nav-link" routerlink="/about" routerlinkactive="active" href="https://vmjsathish27.github.io/BlazingAboutUs/">About</a></li>
+                              <li class="nav-item"><a class="nav-link" routerlink="/contact" routerlinkactive="active" href="https://vmjsathish27.github.io/BlazingContact/">Contact</a></li>
+                           </ul>
+                        </div>
+                        <div class="others-option"><a class="btn btn-gradient" href="#">Contact Us</a></div>
+                     </div>
+                  </nav>
+               </div>
+            </header>
+         </app-header-style-three>
+         <router-outlet _ngcontent-hef-c0="" class="ng-star-inserted"></router-outlet>
+         
+		 <app-repair _nghost-ren-c19="" class="ng-star-inserted">
+            <div _ngcontent-ren-c19="" class="repair-main-banner">
+               <div _ngcontent-ren-c19="" class="container">
+                  <div _ngcontent-ren-c19="" class="row align-items-center">
+                     <div _ngcontent-ren-c19="" class="col-lg-6">
+                        <div _ngcontent-ren-c19="" class="repair-banner-content">
+                           <h1 _ngcontent-ren-c19="">Your Local Computer Repair Experts!</h1>
+                           <p _ngcontent-ren-c19="">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+                           <a _ngcontent-ren-c19="" class="btn btn-primary" href="#">Get Started</a>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-6">
+                        <div _ngcontent-ren-c19="" class="repair-banner-image"><img _ngcontent-ren-c19="" alt="image" src="https://public.touch2success.com/static/f81e1823ca1cca8ea997a0f3b4f07623/img/1591007899phparz78O.jpg?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600">
+						<!--<img _ngcontent-ren-c19="" alt="image" class="wow zoomIn" data-wow-delay="0.6s" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/1.png" style="visibility: visible; animation-delay: 0.6s; animation-name: zoomIn;">
+						<img _ngcontent-ren-c19="" alt="image" class="wow fadeInLeft" data-wow-delay="0.6s" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/2.png" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+						<img _ngcontent-ren-c19="" alt="image" class="rotateme" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/circle.png">-->
+						</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <app-repair-partner _ngcontent-ren-c19="" _nghost-ren-c20="">
+               <section _ngcontent-ren-c20="" class="repair-partner-area bg-f9fafb">
+                  <div _ngcontent-ren-c20="" class="container">
+                     <div _ngcontent-ren-c20="" class="row">
+                        <owl-carousel-o _ngcontent-ren-c20="" class="partner-slides owl-carousel owl-theme owl-drag" _nghost-ren-c13="">
+                           <div _ngcontent-ren-c13="" class="owl-carousel owl-theme owl-loaded owl-responsive owl-drag">
+                              <!---->
+                              <div _ngcontent-ren-c13="" class="owl-stage-outer ng-star-inserted">
+                                 <owl-stage _ngcontent-ren-c13="" class="ng-tns-c15-5">
+                                    <div class="ng-tns-c15-5">
+                                       <div class="owl-stage" style="width: 7410px; transform: translate3d(-2090px, 0px, 0px); transition: all 1s ease 0s;">
+                                          
+                                          <div class="owl-item ng-tns-c15-5 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned" style="width: 190px;">
+                                             <!----><!---->
+                                             <div _ngcontent-ren-c20="" class="col-lg-12 col-md-12 ng-star-inserted" style="">
+                                                <div _ngcontent-ren-c20="" class="single-repair-partner"><a _ngcontent-ren-c20="" href="#"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590766543phpLwkYXq.jpg?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590766543phppDhS0A.jpg?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"></a></div>
+                                             </div>
+                                             <!---->
+                                          </div>
+                                          <div class="owl-item ng-tns-c15-5 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned" style="width: 190px;">
+                                             <!----><!---->
+                                             <div _ngcontent-ren-c20="" class="col-lg-12 col-md-12 ng-star-inserted" style="">
+                                                <div _ngcontent-ren-c20="" class="single-repair-partner"><a _ngcontent-ren-c20="" href="#"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590766543phppLY6iN.jpg?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590766543phptjw2lX.jpg?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"></a></div>
+                                             </div>
+                                             <!---->
+                                          </div>
+                                          <div class="owl-item ng-tns-c15-5 ng-trigger ng-trigger-autoHeight ng-star-inserted cloned" style="width: 190px;">
+                                             <!----><!---->
+                                             <div _ngcontent-ren-c20="" class="col-lg-12 col-md-12 ng-star-inserted" style="">
+                                                <div _ngcontent-ren-c20="" class="single-repair-partner"><a _ngcontent-ren-c20="" href="#"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590767776php3P8TOY.png?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590767776phpV9P9zn.jpg?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"></a></div>
+                                             </div>
+                                             <!---->
+                                          </div>
+                                          <div class="owl-item ng-tns-c15-5 cloned ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 190px;">
+                                             <!----><!---->
+                                             <div _ngcontent-ren-c20="" class="col-lg-12 col-md-12 ng-star-inserted" style="">
+                                                <div _ngcontent-ren-c20="" class="single-repair-partner"><a _ngcontent-ren-c20="" href="#"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590767776phpJpWYJr.png?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590767776phpfgd4EU.png?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"></a></div>
+                                             </div>
+                                             <!---->
+                                          </div>
+                                          <div class="owl-item ng-tns-c15-5 cloned ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 190px;">
+                                             <!----><!---->
+                                             <div _ngcontent-ren-c20="" class="col-lg-12 col-md-12 ng-star-inserted" style="">
+                                                <div _ngcontent-ren-c20="" class="single-repair-partner"><a _ngcontent-ren-c20="" href="#"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590766543php1hAykS.jpg?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590766544phpvLVyn2.jpg?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"></a></div>
+                                             </div>
+                                             <!---->
+                                          </div>
+                                          <div class="owl-item ng-tns-c15-5 cloned ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 190px;">
+                                             <!----><!---->
+                                             <div _ngcontent-ren-c20="" class="col-lg-12 col-md-12 ng-star-inserted" style="">
+                                                <div _ngcontent-ren-c20="" class="single-repair-partner"><a _ngcontent-ren-c20="" href="#"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590766543phpdSiIFe.jpg?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"><img _ngcontent-ren-c20="" alt="image" src="https://public.touch2success.com/static/956dab3b24b2b82b6925f93256feecda/img/1590766544phpB8jKIo.jpg?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600"></a></div>
+                                             </div>
+                                             <!---->
+                                          </div>
+                                          
+                                       </div>
+                                    </div>
+                                 </owl-stage>
+                              </div>
+                              <!----><!---->
+                              <div _ngcontent-ren-c13="" class="owl-nav disabled ng-star-inserted">
+                                 <div _ngcontent-ren-c13="" class="owl-prev">prev</div>
+                                 <div _ngcontent-ren-c13="" class="owl-next">next</div>
+                              </div>
+                              <div _ngcontent-ren-c13="" class="owl-dots disabled ng-star-inserted">
+                                 <!---->
+                              </div>
+                           </div>
+                           <div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div>
+                           <div class="owl-dots disabled"></div>
+                        </owl-carousel-o>
+                     </div>
+                  </div>
+               </section>
+            </app-repair-partner>
+            <section _ngcontent-ren-c19="" class="repair-about-area ptb-80">
+               <div _ngcontent-ren-c19="" class="container">
+                  <div _ngcontent-ren-c19="" class="row">
+                     <div _ngcontent-ren-c19="" class="col-lg-6">
+                        <div _ngcontent-ren-c19="" class="repair-about-content">
+                           <span _ngcontent-ren-c19="" class="sub-title">About Us</span>
+                           <h2 _ngcontent-ren-c19="">We have 35 years of experience in repair services</h2>
+                           <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                           <ul _ngcontent-ren-c19="">
+                              <li _ngcontent-ren-c19="">
+                                 <span _ngcontent-ren-c19="">
+                                    <i-feather _ngcontent-ren-c19="" name="check" _nghost-ren-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-check">
+                                          <polyline points="20 6 9 17 4 12"></polyline>
+                                       </svg>
+                                    </i-feather>
+                                    Experienced Professionals
+                                 </span>
+                              </li>
+                              <li _ngcontent-ren-c19="">
+                                 <span _ngcontent-ren-c19="">
+                                    <i-feather _ngcontent-ren-c19="" name="check" _nghost-ren-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-check">
+                                          <polyline points="20 6 9 17 4 12"></polyline>
+                                       </svg>
+                                    </i-feather>
+                                    Expert Technical Skills
+                                 </span>
+                              </li>
+                              <li _ngcontent-ren-c19="">
+                                 <span _ngcontent-ren-c19="">
+                                    <i-feather _ngcontent-ren-c19="" name="check" _nghost-ren-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-check">
+                                          <polyline points="20 6 9 17 4 12"></polyline>
+                                       </svg>
+                                    </i-feather>
+                                    Excellent Reputation
+                                 </span>
+                              </li>
+                              <li _ngcontent-ren-c19="">
+                                 <span _ngcontent-ren-c19="">
+                                    <i-feather _ngcontent-ren-c19="" name="check" _nghost-ren-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-check">
+                                          <polyline points="20 6 9 17 4 12"></polyline>
+                                       </svg>
+                                    </i-feather>
+                                    Friendly Service
+                                 </span>
+                              </li>
+                              <li _ngcontent-ren-c19="">
+                                 <span _ngcontent-ren-c19="">
+                                    <i-feather _ngcontent-ren-c19="" name="check" _nghost-ren-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-check">
+                                          <polyline points="20 6 9 17 4 12"></polyline>
+                                       </svg>
+                                    </i-feather>
+                                    Trustworthy See Reviews
+                                 </span>
+                              </li>
+                              <li _ngcontent-ren-c19="">
+                                 <span _ngcontent-ren-c19="">
+                                    <i-feather _ngcontent-ren-c19="" name="check" _nghost-ren-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-check">
+                                          <polyline points="20 6 9 17 4 12"></polyline>
+                                       </svg>
+                                    </i-feather>
+                                    Affordable Diagnosis
+                                 </span>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+					 <!--<div _ngcontent-ren-c19="" class="col-lg-6">
+                        <div _ngcontent-ren-c19="" class="repair-about-image">
+						<img _ngcontent-ren-c19="" alt="image" class="wow fadeInDown" src="https://public.touch2success.com/static/f81e1823ca1cca8ea997a0f3b4f07623/img/1591009314phptauSWe.png?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600" style="visibility: visible; animation-name: fadeInDown;">
+						<img _ngcontent-ren-c19="" alt="image" class="wow zoomIn" src="https://public.touch2success.com/static/f81e1823ca1cca8ea997a0f3b4f07623/img/1591009314phpVA3g61.png?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600" style="visibility: visible; animation-name: zoomIn;">
+						<img _ngcontent-ren-c19="" alt="image" class="wow fadeInUp" src="https://public.touch2success.com/static/f81e1823ca1cca8ea997a0f3b4f07623/img/1591009314php31THfP.png?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600" style="visibility: visible; animation-name: fadeInUp;">
+						<img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/about-shape1.png"><img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/about-shape2.png"></div>
+                     </div>-->
+                     <div _ngcontent-ren-c19="" class="col-lg-6">
+                        <div _ngcontent-ren-c19="" class="repair-about-image">
+						<img _ngcontent-ren-c19="" alt="image" class="wow fadeInDown" src="https://public.touch2success.com/static/f81e1823ca1cca8ea997a0f3b4f07623/img/1591011639phpz33rEu.jpg?lightbox[iframe]=true&lightbox[width]=800&lightbox[height]=600" style="visibility: visible; animation-name: fadeInDown;">
+						</div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section _ngcontent-ren-c19="" class="repair-services-area ptb-80 bg-f7fafd">
+               <div _ngcontent-ren-c19="" class="container">
+                  <div _ngcontent-ren-c19="" class="section-title">
+                     <h2 _ngcontent-ren-c19="">Our Featured Services that We Provide</h2>
+                     <div _ngcontent-ren-c19="" class="bar"></div>
+                     <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div _ngcontent-ren-c19="" class="row">
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-repair-services bg1">
+                           <div _ngcontent-ren-c19="" class="icon"><i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                              </i-feather></div>
+                           <h3 _ngcontent-ren-c19="">Laptop Repair</h3>
+                           <p _ngcontent-ren-c19="">Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                           <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                              <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                 </svg>
+                              </i-feather>
+                           </a>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-repair-services bg2">
+                           <div _ngcontent-ren-c19="" class="icon"><i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                              </i-feather></div>
+                           <h3 _ngcontent-ren-c19="">Computer Repair</h3>
+                           <p _ngcontent-ren-c19="">Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                           <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                              <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                 </svg>
+                              </i-feather>
+                           </a>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-repair-services bg3">
+                           <div _ngcontent-ren-c19="" class="icon"><i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                              </i-feather></div>
+                           <h3 _ngcontent-ren-c19="">Apple Products Repair</h3>
+                           <p _ngcontent-ren-c19="">Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                           <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                              <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                 </svg>
+                              </i-feather>
+                           </a>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-repair-services bg4">
+                           <div _ngcontent-ren-c19="" class="icon"><i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                              </i-feather></div>
+                           <h3 _ngcontent-ren-c19="">Software Update</h3>
+                           <p _ngcontent-ren-c19="">Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                           <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                              <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                 </svg>
+                              </i-feather>
+                           </a>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-repair-services bg5">
+                           <div _ngcontent-ren-c19="" class="icon"><i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                              </i-feather></div>
+                           <h3 _ngcontent-ren-c19="">Smartphone Repair</h3>
+                           <p _ngcontent-ren-c19="">Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                           <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                              <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                 </svg>
+                              </i-feather>
+                           </a>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-repair-services bg6">
+                           <div _ngcontent-ren-c19="" class="icon"><i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                              </i-feather></div>
+                           <h3 _ngcontent-ren-c19="">Data Backup &amp; Recovery</h3>
+                           <p _ngcontent-ren-c19="">Lorem ipsum eiusmod dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                           <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                              <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                 </svg>
+                              </i-feather>
+                           </a>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section _ngcontent-ren-c19="" class="repair-cta-area bg-0f054b">
+               <div _ngcontent-ren-c19="" class="container">
+                  <div _ngcontent-ren-c19="" class="row align-items-center">
+                     <div _ngcontent-ren-c19="" class="col-lg-6">
+                        <div _ngcontent-ren-c19="" class="cta-repair-content">
+                           <h3 _ngcontent-ren-c19="">We'll help you get back to work</h3>
+                           <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                           <a _ngcontent-ren-c19="" class="btn btn-primary" href="https://profun-ng.envytheme.com/#">Contact Us</a>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-6">
+                        <div _ngcontent-ren-c19="" class="cta-repair-img"><img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/man-and-women.png"></div>
+                     </div>
+                  </div>
+               </div>
+               <div _ngcontent-ren-c19="" class="circle-box"><img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/circle(1).png"></div>
+               <div _ngcontent-ren-c19="" class="cta-shape"><img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/cta-shape.png"></div>
+            </section>
+            <!--<app-funfact _ngcontent-ren-c19="" _nghost-ren-c9="">
+               <section _ngcontent-ren-c9="" class="funfacts-area ptb-80">
+                  <div _ngcontent-ren-c9="" class="container">
+                     <div _ngcontent-ren-c9="" class="section-title">
+                        <h2 _ngcontent-ren-c9="">We always try to understand users expectation</h2>
+                        <div _ngcontent-ren-c9="" class="bar"></div>
+                        <p _ngcontent-ren-c9="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     </div>
+                     <div _ngcontent-ren-c9="" class="row">
+                        <div _ngcontent-ren-c9="" class="col-lg-3 col-md-3 col-6 col-sm-3">
+                           <div _ngcontent-ren-c9="" class="funfact">
+                              <h3 _ngcontent-ren-c9="">
+                                 <ng2-odometer _ngcontent-ren-c9="">
+                                    <div class="odometer odometer-theme-default">
+                                       <div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div>
+                                    </div>
+                                 </ng2-odometer>
+                                 K 
+                              </h3>
+                              <p _ngcontent-ren-c9="">Downloaded</p>
+                           </div>
+                        </div>
+                        <div _ngcontent-ren-c9="" class="col-lg-3 col-md-3 col-6 col-sm-3">
+                           <div _ngcontent-ren-c9="" class="funfact">
+                              <h3 _ngcontent-ren-c9="">
+                                 <ng2-odometer _ngcontent-ren-c9="">
+                                    <div class="odometer odometer-theme-default">
+                                       <div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">5</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div>
+                                    </div>
+                                 </ng2-odometer>
+                                 K 
+                              </h3>
+                              <p _ngcontent-ren-c9="">Feedback</p>
+                           </div>
+                        </div>
+                        <div _ngcontent-ren-c9="" class="col-lg-3 col-md-3 col-6 col-sm-3">
+                           <div _ngcontent-ren-c9="" class="funfact">
+                              <h3 _ngcontent-ren-c9="">
+                                 <ng2-odometer _ngcontent-ren-c9="">
+                                    <div class="odometer odometer-theme-default">
+                                       <div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div>
+                                    </div>
+                                 </ng2-odometer>
+                                 K 
+                              </h3>
+                              <p _ngcontent-ren-c9="">Workers</p>
+                           </div>
+                        </div>
+                        <div _ngcontent-ren-c9="" class="col-lg-3 col-md-3 col-6 col-sm-3">
+                           <div _ngcontent-ren-c9="" class="funfact">
+                              <h3 _ngcontent-ren-c9="">
+                                 <ng2-odometer _ngcontent-ren-c9="">
+                                    <div class="odometer odometer-theme-default">
+                                       <div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">2</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div>
+                                    </div>
+                                 </ng2-odometer>
+                                 K 
+                              </h3>
+                              <p _ngcontent-ren-c9="">Contrubutors</p>
+                           </div>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c9="" class="contact-cta-box">
+                        <h3 _ngcontent-ren-c9="">Have any question about us?</h3>
+                        <p _ngcontent-ren-c9="">Don't hesitate to contact us</p>
+                        <a _ngcontent-ren-c9="" class="btn btn-primary" href="https://profun-ng.envytheme.com/#">Contact Us</a>
+                     </div>
+                     <div _ngcontent-ren-c9="" class="map-bg"><img _ngcontent-ren-c9="" alt="map" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/map.png"></div>
+                  </div>
+               </section>
+            </app-funfact>-->
+           <!-- <section _ngcontent-ren-c19="" class="team-area repair-team-area pt-80 pb-50 bg-f9f6f6">
+               <div _ngcontent-ren-c19="" class="container">
+                  <div _ngcontent-ren-c19="" class="section-title">
+                     <h2 _ngcontent-ren-c19="">Our Awesome Team</h2>
+                     <div _ngcontent-ren-c19="" class="bar"></div>
+                     <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div _ngcontent-ren-c19="" class="row">
+                     <div _ngcontent-ren-c19="" class="col-lg-3 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-team">
+                           <div _ngcontent-ren-c19="" class="team-image"><img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/1.jpg"></div>
+                           <div _ngcontent-ren-c19="" class="team-content">
+                              <div _ngcontent-ren-c19="" class="team-info">
+                                 <h3 _ngcontent-ren-c19="">Josh Buttler</h3>
+                                 <span _ngcontent-ren-c19="">CEO &amp; Founder</span>
+                              </div>
+                              <ul _ngcontent-ren-c19="">
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="facebook" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-facebook">
+                                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="twitter" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-twitter">
+                                             <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="linkedin" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-linkedin">
+                                             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                             <rect x="2" y="9" width="4" height="12"></rect>
+                                             <circle cx="4" cy="4" r="2"></circle>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="gitlab" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-gitlab">
+                                             <path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                              </ul>
+                              <p _ngcontent-ren-c19="">Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-3 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-team">
+                           <div _ngcontent-ren-c19="" class="team-image"><img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/2.jpg"></div>
+                           <div _ngcontent-ren-c19="" class="team-content">
+                              <div _ngcontent-ren-c19="" class="team-info">
+                                 <h3 _ngcontent-ren-c19="">Alex Maxwel</h3>
+                                 <span _ngcontent-ren-c19="">Marketing Manager</span>
+                              </div>
+                              <ul _ngcontent-ren-c19="">
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="facebook" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-facebook">
+                                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="twitter" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-twitter">
+                                             <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="linkedin" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-linkedin">
+                                             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                             <rect x="2" y="9" width="4" height="12"></rect>
+                                             <circle cx="4" cy="4" r="2"></circle>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="gitlab" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-gitlab">
+                                             <path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                              </ul>
+                              <p _ngcontent-ren-c19="">Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-3 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-team">
+                           <div _ngcontent-ren-c19="" class="team-image"><img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/3.jpg"></div>
+                           <div _ngcontent-ren-c19="" class="team-content">
+                              <div _ngcontent-ren-c19="" class="team-info">
+                                 <h3 _ngcontent-ren-c19="">Janny Cotller</h3>
+                                 <span _ngcontent-ren-c19="">Web Developer</span>
+                              </div>
+                              <ul _ngcontent-ren-c19="">
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="facebook" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-facebook">
+                                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="twitter" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-twitter">
+                                             <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="linkedin" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-linkedin">
+                                             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                             <rect x="2" y="9" width="4" height="12"></rect>
+                                             <circle cx="4" cy="4" r="2"></circle>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="gitlab" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-gitlab">
+                                             <path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                              </ul>
+                              <p _ngcontent-ren-c19="">Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                           </div>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-3 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-team">
+                           <div _ngcontent-ren-c19="" class="team-image"><img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/4.jpg"></div>
+                           <div _ngcontent-ren-c19="" class="team-content">
+                              <div _ngcontent-ren-c19="" class="team-info">
+                                 <h3 _ngcontent-ren-c19="">Jason Statham</h3>
+                                 <span _ngcontent-ren-c19="">UX/UI Designer</span>
+                              </div>
+                              <ul _ngcontent-ren-c19="">
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="facebook" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-facebook">
+                                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="twitter" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-twitter">
+                                             <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="linkedin" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-linkedin">
+                                             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                             <rect x="2" y="9" width="4" height="12"></rect>
+                                             <circle cx="4" cy="4" r="2"></circle>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                                 <li _ngcontent-ren-c19="">
+                                    <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                                       <i-feather _ngcontent-ren-c19="" name="gitlab" _nghost-ren-c5="">
+                                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-gitlab">
+                                             <path d="M22.65 14.39L12 22.13 1.35 14.39a.84.84 0 0 1-.3-.94l1.22-3.78 2.44-7.51A.42.42 0 0 1 4.82 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.49h8.1l2.44-7.51A.42.42 0 0 1 18.6 2a.43.43 0 0 1 .58 0 .42.42 0 0 1 .11.18l2.44 7.51L23 13.45a.84.84 0 0 1-.35.94z"></path>
+                                          </svg>
+                                       </i-feather>
+                                    </a>
+                                 </li>
+                              </ul>
+                              <p _ngcontent-ren-c19="">Risus commodo viverra maecenas accumsan lacus vel facilisis quis ipsum. </p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>-->
+            <!--<app-feedback _ngcontent-ren-c19="" _nghost-ren-c11="">
+               <section _ngcontent-ren-c11="" class="feedback-area ptb-80 bg-f7fafd">
+                  <div _ngcontent-ren-c11="" class="container">
+                     <div _ngcontent-ren-c11="" class="section-title">
+                        <h2 _ngcontent-ren-c11="">What users Saying</h2>
+                        <div _ngcontent-ren-c11="" class="bar"></div>
+                        <p _ngcontent-ren-c11="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                     </div>
+                     <div _ngcontent-ren-c11="" class="feedback-slides">
+                        <div _ngcontent-ren-c11="" class="client-feedback">
+                           <div _ngcontent-ren-c11="">
+                              <ngx-slick-carousel _ngcontent-ren-c11="" class="carousel feedback slick-initialized slick-slider">
+                                 <div class="slick-list draggable">
+                                    <div class="slick-track" style="opacity: 1; width: 3750px;">
+                                       <div _ngcontent-ren-c11="" class="item slide slick-slide" ngxslickitem="" data-slick-index="0" aria-hidden="true" tabindex="-1" style="width: 750px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms linear 0s;">
+                                          <div _ngcontent-ren-c11="" class="single-feedback">
+                                             <img _ngcontent-ren-c11="" alt="Quote Icon" class="quote-icon" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/left-quote.png">
+                                             <p _ngcontent-ren-c11="">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                             <div _ngcontent-ren-c11="" class="client-img">
+                                                <img _ngcontent-ren-c11="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/1(1).jpg">
+                                                <div _ngcontent-ren-c11="" class="title">
+                                                   <h3 _ngcontent-ren-c11="">John Lucy</h3>
+                                                   <span _ngcontent-ren-c11="">Web Developer</span>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slide slick-slide slick-current slick-active" ngxslickitem="" data-slick-index="1" aria-hidden="false" tabindex="0" style="width: 750px; position: relative; left: -750px; top: 0px; z-index: 999; opacity: 1;">
+                                          <div _ngcontent-ren-c11="" class="single-feedback">
+                                             <img _ngcontent-ren-c11="" alt="Quote Icon" class="quote-icon" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/left-quote.png">
+                                             <p _ngcontent-ren-c11="">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                             <div _ngcontent-ren-c11="" class="client-img">
+                                                <img _ngcontent-ren-c11="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/2(1).jpg">
+                                                <div _ngcontent-ren-c11="" class="title">
+                                                   <h3 _ngcontent-ren-c11="">John Smith</h3>
+                                                   <span _ngcontent-ren-c11="">Web Developer</span>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slide slick-slide" ngxslickitem="" data-slick-index="2" aria-hidden="true" tabindex="-1" style="width: 750px; position: relative; left: -1500px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms linear 0s;">
+                                          <div _ngcontent-ren-c11="" class="single-feedback">
+                                             <img _ngcontent-ren-c11="" alt="Quote Icon" class="quote-icon" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/left-quote.png">
+                                             <p _ngcontent-ren-c11="">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                             <div _ngcontent-ren-c11="" class="client-img">
+                                                <img _ngcontent-ren-c11="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/3(1).jpg">
+                                                <div _ngcontent-ren-c11="" class="title">
+                                                   <h3 _ngcontent-ren-c11="">Maxwel Warner</h3>
+                                                   <span _ngcontent-ren-c11="">Web Developer</span>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slide slick-slide" ngxslickitem="" data-slick-index="3" aria-hidden="true" tabindex="-1" style="width: 750px; position: relative; left: -2250px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms linear 0s;">
+                                          <div _ngcontent-ren-c11="" class="single-feedback">
+                                             <img _ngcontent-ren-c11="" alt="Quote Icon" class="quote-icon" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/left-quote.png">
+                                             <p _ngcontent-ren-c11="">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                             <div _ngcontent-ren-c11="" class="client-img">
+                                                <img _ngcontent-ren-c11="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/4(1).jpg">
+                                                <div _ngcontent-ren-c11="" class="title">
+                                                   <h3 _ngcontent-ren-c11="">Ross Taylor</h3>
+                                                   <span _ngcontent-ren-c11="">Web Developer</span>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slide slick-slide" ngxslickitem="" data-slick-index="4" aria-hidden="true" tabindex="-1" style="width: 750px; position: relative; left: -3000px; top: 0px; z-index: 998; opacity: 0; transition: opacity 300ms linear 0s;">
+                                          <div _ngcontent-ren-c11="" class="single-feedback">
+                                             <img _ngcontent-ren-c11="" alt="Quote Icon" class="quote-icon" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/left-quote.png">
+                                             <p _ngcontent-ren-c11="">Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                             <div _ngcontent-ren-c11="" class="client-img">
+                                                <img _ngcontent-ren-c11="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/5.jpg">
+                                                <div _ngcontent-ren-c11="" class="title">
+                                                   <h3 _ngcontent-ren-c11="">James Anderson</h3>
+                                                   <span _ngcontent-ren-c11="">Web Developer</span>
+                                                </div>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </ngx-slick-carousel>
+                           </div>
+                        </div>
+                        <div _ngcontent-ren-c11="" class="client-thumbnails">
+                           <div _ngcontent-ren-c11="">
+                              <ngx-slick-carousel _ngcontent-ren-c11="" class="carousel thumbs slick-initialized slick-slider">
+                                 <div class="slick-list" style="padding: 0px;">
+                                    <div class="slick-track" style="opacity: 1; width: 1540px; transform: translate3d(-350px, 0px, 0px);">
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="-6" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/3(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="-5" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/4(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="-4" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/5.jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="-3" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/1(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="-2" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/2(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned slick-active" ngxslickitem="" data-slick-index="-1" aria-hidden="false" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/3(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-active" ngxslickitem="" data-slick-index="0" aria-hidden="false" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/1(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-current slick-active slick-center" ngxslickitem="" data-slick-index="1" aria-hidden="false" tabindex="0" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/2(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-active" ngxslickitem="" data-slick-index="2" aria-hidden="false" tabindex="0" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/3(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-active" ngxslickitem="" data-slick-index="3" aria-hidden="false" tabindex="0" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/4(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide" ngxslickitem="" data-slick-index="4" aria-hidden="true" tabindex="0" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/5.jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide" ngxslickitem="" data-slick-index="5" aria-hidden="true" tabindex="0" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/1(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide" ngxslickitem="" data-slick-index="6" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/2(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide" ngxslickitem="" data-slick-index="7" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/3(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="8" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/1(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="9" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/2(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="10" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/3(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="11" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/4(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="12" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/5.jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="13" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/1(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="14" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/2(1).jpg"></div>
+                                       </div>
+                                       <div _ngcontent-ren-c11="" class="item slick-slide slick-cloned" ngxslickitem="" data-slick-index="15" aria-hidden="true" tabindex="-1" style="width: 70px;">
+                                          <div _ngcontent-ren-c11="" class="img-fill"><img _ngcontent-ren-c11="" alt="client" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/3(1).jpg"></div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </ngx-slick-carousel>
+                           </div>
+                           <button _ngcontent-ren-c11="" class="prev-arrow slick-arrow" style="">
+                              <i-feather _ngcontent-ren-c11="" name="arrow-left" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-left">
+                                    <line x1="19" y1="12" x2="5" y2="12"></line>
+                                    <polyline points="12 19 5 12 12 5"></polyline>
+                                 </svg>
+                              </i-feather>
+                           </button>
+                           <button _ngcontent-ren-c11="" class="next-arrow slick-arrow" style="">
+                              <i-feather _ngcontent-ren-c11="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                 </svg>
+                              </i-feather>
+                           </button>
+                        </div>
+                     </div>
+                  </div>
+                  <div _ngcontent-ren-c11="" class="shape1"><img _ngcontent-ren-c11="" alt="shape" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/shape1.png"></div>
+                  <div _ngcontent-ren-c11="" class="shape2 rotateme"><img _ngcontent-ren-c11="" alt="shape" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/shape2.svg"></div>
+                  <div _ngcontent-ren-c11="" class="shape4"><img _ngcontent-ren-c11="" alt="shape" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/shape4.svg"></div>
+                  <div _ngcontent-ren-c11="" class="shape5"><img _ngcontent-ren-c11="" alt="shape" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/shape5.png"></div>
+                  <div _ngcontent-ren-c11="" class="shape6 rotateme"><img _ngcontent-ren-c11="" alt="shape" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/shape4.svg"></div>
+                  <div _ngcontent-ren-c11="" class="shape7"><img _ngcontent-ren-c11="" alt="shape" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/shape4.svg"></div>
+                  <div _ngcontent-ren-c11="" class="shape8 rotateme"><img _ngcontent-ren-c11="" alt="shape" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/shape2.svg"></div>
+               </section>
+            </app-feedback>-->
+            <section _ngcontent-ren-c19="" class="repair-why-choose-us pt-80">
+               <div _ngcontent-ren-c19="" class="container">
+                  <div _ngcontent-ren-c19="" class="section-title">
+                     <h2 _ngcontent-ren-c19="">Why We Are Best From Others</h2>
+                     <div _ngcontent-ren-c19="" class="bar"></div>
+                     <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div _ngcontent-ren-c19="" class="row">
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-repair-box">
+                           <div _ngcontent-ren-c19="" class="icon"><i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-monitor"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                              </i-feather></div>
+                           <h3 _ngcontent-ren-c19="">Quick Repair Process</h3>
+                           <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                           <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                              <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                 </svg>
+                              </i-feather>
+                           </a>
+                           <div _ngcontent-ren-c19="" class="back-icon"> <i _ngcontent-ren-c19="" class="flaticon-repair"></i></div>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6 col-sm-6">
+                        <div _ngcontent-ren-c19="" class="single-repair-box">
+                           <div _ngcontent-ren-c19="" class="icon"><i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layers"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                              </i-feather></div>
+                           <h3 _ngcontent-ren-c19="">Free Diagnostics</h3>
+                           <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                           <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                              <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                 </svg>
+                              </i-feather>
+                           </a>
+                           <div _ngcontent-ren-c19="" class="back-icon"><i _ngcontent-ren-c19="" class="flaticon-repair"></i></div>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-md-3 offset-sm-3">
+                        <div _ngcontent-ren-c19="" class="single-repair-box">
+                           <div _ngcontent-ren-c19="" class="icon"><i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-truck"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                              </i-feather></div>
+                           <h3 _ngcontent-ren-c19="">Fast Delivery</h3>
+                           <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet elit, adipiscing, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.</p>
+                           <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">
+                              <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline points="12 5 19 12 12 19"></polyline>
+                                 </svg>
+                              </i-feather>
+                           </a>
+                           <div _ngcontent-ren-c19="" class="back-icon"><i _ngcontent-ren-c19="" class="flaticon-delivery-truck"></i></div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+			
+            <section _ngcontent-ren-c19="" class="blog-area ptb-80">
+               <div _ngcontent-ren-c19="" class="container">
+                  <div _ngcontent-ren-c19="" class="section-title">
+                     <h2 _ngcontent-ren-c19="">The News from Our Blog</h2>
+                     <div _ngcontent-ren-c19="" class="bar"></div>
+                     <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div _ngcontent-ren-c19="" class="row">
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6">
+                        <div _ngcontent-ren-c19="" class="single-blog-post">
+                           <div _ngcontent-ren-c19="" class="blog-image">
+                              <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#"><img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/1(2).jpg"></a>
+                              <div _ngcontent-ren-c19="" class="date">
+                                 <i-feather _ngcontent-ren-c19="" name="calendar" _nghost-ren-c5="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-calendar">
+                                       <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                       <line x1="16" y1="2" x2="16" y2="6"></line>
+                                       <line x1="8" y1="2" x2="8" y2="6"></line>
+                                       <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                 </i-feather>
+                                 March 15, 2019 
+                              </div>
+                           </div>
+                           <div _ngcontent-ren-c19="" class="blog-post-content">
+                              <h3 _ngcontent-ren-c19=""><a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">The security risks of changing package owners</a></h3>
+                              <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                              <a _ngcontent-ren-c19="" class="read-more-btn" href="https://profun-ng.envytheme.com/#">
+                                 Read More 
+                                 <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                       <line x1="5" y1="12" x2="19" y2="12"></line>
+                                       <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                 </i-feather>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6">
+                        <div _ngcontent-ren-c19="" class="single-blog-post">
+                           <div _ngcontent-ren-c19="" class="blog-image">
+                              <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#"><img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/2(2).jpg"></a>
+                              <div _ngcontent-ren-c19="" class="date">
+                                 <i-feather _ngcontent-ren-c19="" name="calendar" _nghost-ren-c5="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-calendar">
+                                       <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                       <line x1="16" y1="2" x2="16" y2="6"></line>
+                                       <line x1="8" y1="2" x2="8" y2="6"></line>
+                                       <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                 </i-feather>
+                                 March 17, 2019 
+                              </div>
+                           </div>
+                           <div _ngcontent-ren-c19="" class="blog-post-content">
+                              <h3 _ngcontent-ren-c19=""><a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">Tips to Protecting Your Business and Family</a></h3>
+                              <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                              <a _ngcontent-ren-c19="" class="read-more-btn" href="https://profun-ng.envytheme.com/#">
+                                 Read More 
+                                 <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                       <line x1="5" y1="12" x2="19" y2="12"></line>
+                                       <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                 </i-feather>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div _ngcontent-ren-c19="" class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
+                        <div _ngcontent-ren-c19="" class="single-blog-post">
+                           <div _ngcontent-ren-c19="" class="blog-image">
+                              <a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#"><img _ngcontent-ren-c19="" alt="image" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/3(2).jpg"></a>
+                              <div _ngcontent-ren-c19="" class="date">
+                                 <i-feather _ngcontent-ren-c19="" name="calendar" _nghost-ren-c5="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-calendar">
+                                       <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                       <line x1="16" y1="2" x2="16" y2="6"></line>
+                                       <line x1="8" y1="2" x2="8" y2="6"></line>
+                                       <line x1="3" y1="10" x2="21" y2="10"></line>
+                                    </svg>
+                                 </i-feather>
+                                 March 19, 2019 
+                              </div>
+                           </div>
+                           <div _ngcontent-ren-c19="" class="blog-post-content">
+                              <h3 _ngcontent-ren-c19=""><a _ngcontent-ren-c19="" href="https://profun-ng.envytheme.com/#">Protect Your Workplace from Cyber Attacks</a></h3>
+                              <p _ngcontent-ren-c19="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida.</p>
+                              <a _ngcontent-ren-c19="" class="read-more-btn" href="https://profun-ng.envytheme.com/#">
+                                 Read More 
+                                 <i-feather _ngcontent-ren-c19="" name="arrow-right" _nghost-ren-c5="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-right">
+                                       <line x1="5" y1="12" x2="19" y2="12"></line>
+                                       <polyline points="12 5 19 12 12 19"></polyline>
+                                    </svg>
+                                 </i-feather>
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </app-repair>
+		 
+         <!---->
+         <app-footer _ngcontent-hef-c0="" _nghost-hef-c2="" class="ng-star-inserted">
+            <footer _ngcontent-hef-c2="" class="footer-area bg-f7fafd">
+               <div _ngcontent-hef-c2="" class="container">
+                  <div _ngcontent-hef-c2="" class="row">
+                     <div _ngcontent-hef-c2="" class="col-lg-3 col-md-6 col-sm-6">
+                        <div _ngcontent-hef-c2="" class="single-footer-widget">
+                           <div _ngcontent-hef-c2="" class="logo"><a _ngcontent-hef-c2="" href="#"><img _ngcontent-hef-c2="" alt="logo" src="https://public.touch2success.com/static/f81e1823ca1cca8ea997a0f3b4f07623/img/1589978912phpNHZ5Zf.png"></a></div>
+                           <p _ngcontent-hef-c2="">A marketing agency for all kinds of communication services to help brands achieve constant success.</p>
+                        </div>
+                     </div>
+                     <div _ngcontent-hef-c2="" class="col-lg-3 col-md-6 col-sm-6">
+                        <div _ngcontent-hef-c2="" class="single-footer-widget pl-5">
+                           <h3 _ngcontent-hef-c2="">Company</h3>
+                           <ul _ngcontent-hef-c2="" class="list">
+                              <li _ngcontent-hef-c2=""><a _ngcontent-hef-c2="" href="https://www.profun-ng.envytheme.com/#">About Us</a></li>
+                              <li _ngcontent-hef-c2=""><a _ngcontent-hef-c2="" href="https://www.profun-ng.envytheme.com/#">Services</a></li>
+                              <li _ngcontent-hef-c2=""><a _ngcontent-hef-c2="" href="https://www.profun-ng.envytheme.com/#">Features</a></li>
+                              <li _ngcontent-hef-c2=""><a _ngcontent-hef-c2="" href="https://www.profun-ng.envytheme.com/#">Our Pricing</a></li>
+                              <li _ngcontent-hef-c2=""><a _ngcontent-hef-c2="" href="https://www.profun-ng.envytheme.com/#">Latest News</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div _ngcontent-hef-c2="" class="col-lg-3 col-md-6 col-sm-6">
+                        <div _ngcontent-hef-c2="" class="single-footer-widget">
+                           <h3 _ngcontent-hef-c2="">Support</h3>
+                           <ul _ngcontent-hef-c2="" class="list">
+                              <li _ngcontent-hef-c2=""><a _ngcontent-hef-c2="" href="https://www.profun-ng.envytheme.com/#">FAQ's</a></li>
+                              <li _ngcontent-hef-c2=""><a _ngcontent-hef-c2="" href="https://www.profun-ng.envytheme.com/#">Privacy Policy</a></li>
+                              <li _ngcontent-hef-c2=""><a _ngcontent-hef-c2="" href="https://www.profun-ng.envytheme.com/#">Terms &amp; Condition</a></li>
+                              <li _ngcontent-hef-c2=""><a _ngcontent-hef-c2="" href="https://www.profun-ng.envytheme.com/#">Community</a></li>
+                              <li _ngcontent-hef-c2=""><a _ngcontent-hef-c2="" href="https://www.profun-ng.envytheme.com/#">Contact Us</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div _ngcontent-hef-c2="" class="col-lg-3 col-md-6 col-sm-6">
+                        <div _ngcontent-hef-c2="" class="single-footer-widget">
+                           <h3 _ngcontent-hef-c2="">Address</h3>
+                           <ul _ngcontent-hef-c2="" class="footer-contact-info">
+                              <li _ngcontent-hef-c2="">
+                                 <i-feather _ngcontent-hef-c2="" name="map-pin" _nghost-hef-c5="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-map-pin">
+                                       <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                       <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                 </i-feather>
+                                 Genesis Centre, Innovation Way, Stoke-on-Trent, ST6 4BF
+                              </li>
+                              <li _ngcontent-hef-c2="">
+                                 <i-feather _ngcontent-hef-c2="" name="mail" _nghost-hef-c5="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-mail">
+                                       <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                       <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                 </i-feather>
+                                 Email: <a _ngcontent-hef-c2="" href="#">info@blazingmarketing.com</a>
+                              </li>
+                              <li _ngcontent-hef-c2="">
+                                 <i-feather _ngcontent-hef-c2="" name="phone" _nghost-hef-c5="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-phone">
+                                       <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                                    </svg>
+                                 </i-feather>
+                                 Phone: <a _ngcontent-hef-c2="" href="#">+44-333 015 1036</a>
+                              </li>
+                           </ul>
+                           <ul _ngcontent-hef-c2="" class="social-links">
+                              <li _ngcontent-hef-c2="">
+                                 <a _ngcontent-hef-c2="" class="facebook" href="#">
+                                    <i-feather _ngcontent-hef-c2="" name="facebook" _nghost-hef-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-facebook">
+                                          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                                       </svg>
+                                    </i-feather>
+                                 </a>
+                              </li>
+                              <li _ngcontent-hef-c2="">
+                                 <a _ngcontent-hef-c2="" class="twitter" href="#">
+                                    <i-feather _ngcontent-hef-c2="" name="twitter" _nghost-hef-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-twitter">
+                                          <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                                       </svg>
+                                    </i-feather>
+                                 </a>
+                              </li>
+                              <li _ngcontent-hef-c2="">
+                                 <a _ngcontent-hef-c2="" class="instagram" href="#">
+                                    <i-feather _ngcontent-hef-c2="" name="instagram" _nghost-hef-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-instagram">
+                                          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                          <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+                                       </svg>
+                                    </i-feather>
+                                 </a>
+                              </li>
+                              <li _ngcontent-hef-c2="">
+                                 <a _ngcontent-hef-c2="" class="linkedin" href="#">
+                                    <i-feather _ngcontent-hef-c2="" name="linkedin" _nghost-hef-c5="">
+                                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-linkedin">
+                                          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                          <rect x="2" y="9" width="4" height="12"></rect>
+                                          <circle cx="4" cy="4" r="2"></circle>
+                                       </svg>
+                                    </i-feather>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div _ngcontent-hef-c2="" class="col-lg-12 col-md-12">
+                        <div _ngcontent-hef-c2="" class="copyright-area">
+                           <p _ngcontent-hef-c2="">Copyright @2020 Profun. All rights reserved</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <img _ngcontent-hef-c2="" alt="map" class="map" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/map.png">
+               <div _ngcontent-hef-c2="" class="shape1"><img _ngcontent-hef-c2="" alt="shape" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/shape1.png"></div>
+               <div _ngcontent-hef-c2="" class="shape8 rotateme"><img _ngcontent-hef-c2="" alt="shape" src="./Profun - Angular IT Startups &amp; Digital Services Template_files/shape2.svg"></div>
+            </footer>
+            <div _ngcontent-hef-c2="" class="go-top">
+               <i-feather _ngcontent-hef-c2="" name="arrow-up" _nghost-hef-c5="">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="feather feather-arrow-up">
+                     <line x1="12" y1="19" x2="12" y2="5"></line>
+                     <polyline points="5 12 12 5 19 12"></polyline>
+                  </svg>
+               </i-feather>
+            </div>
+         </app-footer>
+         <!----><!---->
+      </app-root>
+      <script src="./Profun - Angular IT Startups &amp; Digital Services Template_files/runtime-es2015.b948044840398824f16e.js.download" type="module"></script><script src="./Profun - Angular IT Startups &amp; Digital Services Template_files/runtime-es5.b948044840398824f16e.js.download" nomodule="" defer=""></script><script src="./Profun - Angular IT Startups &amp; Digital Services Template_files/polyfills-es5.517f1d5415025b3e9b1a.js.download" nomodule="" defer=""></script><script src="./Profun - Angular IT Startups &amp; Digital Services Template_files/polyfills-es2015.d3e61f0dd2b58e518eca.js.download" type="module"></script><script src="./Profun - Angular IT Startups &amp; Digital Services Template_files/scripts.5c2a1e775d42455edc80.js.download" defer=""></script><script src="./Profun - Angular IT Startups &amp; Digital Services Template_files/main-es2015.a7e2fc61cee31d22e14d.js.download" type="module"></script><script src="./Profun - Angular IT Startups &amp; Digital Services Template_files/main-es5.a7e2fc61cee31d22e14d.js.download" nomodule="" defer=""></script>
+   </body>
+</html>
